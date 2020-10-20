@@ -42,17 +42,17 @@ class Category extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Padding(
-                  padding: EdgeInsets.all(16.0),
+                  padding: EdgeInsets.symmetric(vertical: 16.0, horizontal: 20.0),
                   child: Icon(
                     iconLocation,
-                    size: 60.0,
+                    size: 50.0,
                   ),
                 ),
                 Center(
                   child: Text(
                     name,
                     textAlign: TextAlign.center,
-                    style: Theme.of(context).textTheme.headline,
+                    style: Theme.of(context).textTheme.headline5,
                   ),
                 )
               ],

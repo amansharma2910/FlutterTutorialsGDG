@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
         child: Column(
           children: [
             WelcomeBanner(),
-            // TrendingSection(),
+            TrendingSection(),
             SizedBox(
               height: 300.0,
             ),

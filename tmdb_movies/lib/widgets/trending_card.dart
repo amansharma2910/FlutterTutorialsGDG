@@ -3,7 +3,7 @@ import 'package:faker/faker.dart';
 
 import 'package:tmdb_movies/widgets/movie_card.dart';
 
-class TrendingCard extends StatelessWidget {
+class TrendingCardList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
